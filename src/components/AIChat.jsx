@@ -1,6 +1,6 @@
 
 import { useState, useRef, useEffect } from "react";
-import "./AIChat.css";
+import "./style/global.css";
 
 function AIChat() {
   const [open, setOpen] = useState(false);
@@ -13,9 +13,7 @@ function AIChat() {
       role: "ai",
       text: "Hello 👋 Welcome to IPTECH_1 AI. How can I help you today?",
     },
-  ]);
-
-  const messagesEndRef = useRef(null);
+  ]); const messagesEndRef = useRef(null);
   const inputRef = useRef(null);
 
   useEffect(() => {
