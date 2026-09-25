@@ -166,7 +166,7 @@ function About() {
 
               <div className="profile-avatar">
                 <img
-                  src="prince programmer.jpg"
+                  src="/prince programmer.jpg"
                   alt="IPTECH_1 Founder"
                 />
               </div>
